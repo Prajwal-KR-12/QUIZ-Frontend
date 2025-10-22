@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const requester = axios.create({
-  baseURL: 'https://quiz-backend-2-3tsk.onrender.com//api', // Assuming your backend runs on port 5000 and has an /api prefix
+  baseURL: 'https://quiz-backend-4-jgtq.onrender.com/api', // Assuming your backend runs on port 5000 and has an /api prefix
   withCredentials: true, // Important for sending cookies with requests
 });
 

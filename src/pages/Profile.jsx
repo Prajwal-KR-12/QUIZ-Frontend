@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "https://quiz-backend-2-3tsk.onrender.com/api";
+const API_BASE = "https://quiz-backend-4-jgtq.onrender.com/api";
 
 const Profile = () => {
   const [user, setUser] = useState(null);

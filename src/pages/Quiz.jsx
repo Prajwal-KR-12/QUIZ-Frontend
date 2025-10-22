@@ -17,7 +17,7 @@ export default function Quiz() {
 
   useEffect(() => {
     if (user && type) {
-      axios.get(`https://quiz-backend-2-3tsk.onrender.com/api/quiz/${type}`)
+      axios.get(`https://quiz-backend-4-jgtq.onrender.com/api/quiz/${type}`)
         .then((res) => setQuestions(res.data))
         .catch((err) => console.error(err));
     }
