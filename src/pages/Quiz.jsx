@@ -34,7 +34,7 @@ export default function Quiz() {
     }
     const ansArray = questions.map((q, i) => answers[i]);
     try {
-      const res = await axios.post("http://localhost:5000/api/quiz/submit", {
+      const res = await axios.post("https://quiz-backend-4-jgtq.onrender.com/api/quiz/submit", {
         userId: user._id,
         answers: ansArray,
         category: type // Send the quiz category to the backend
